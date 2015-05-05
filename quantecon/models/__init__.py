@@ -6,7 +6,8 @@ objects imported here will live in the `quantecon.models` namespace
 """
 
 __all__ = ["AssetPrices", "CareerWorkerProblem", "ConsumerProblem",
-           "JvWorker", "LucasTree", "SearchProblem", "GrowthModel"]  	# "SolowModel"
+           "JvWorker", "LucasTree", "SearchProblem", "GrowthModel",
+           "solow"]  	# "SolowModel"
 
 from .asset_pricing import AssetPrices
 from .career import CareerWorkerProblem
